@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100wh;
+    /* border: 2px solid blue; */
+    
+}
+.header_box{
+     border: 2px solid green; 
+    height: 100px;
+    width: 100wh;
+    
+}
+.header_list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 40px;
+    gap: 300px;
+}
+
+
+.big_box{
+    height: 540px;
+    width: 100wh;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box-1{
+    height: 540px;
+    width: 672px;
+     border: 2px solid black; 
+    display: flex;
+}
+.box-2{
+    height: 540px;
+    width: 672px;
+    border: 2px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    position: absolute;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       bottom: 460px;
+       left: 250px;
+
+}
+.box-2 img{
+    height: 300px;
+    width: 300px;
+   
+}
+.tag{
+    position: relative;
+    top: 50px;
+}
+
+.img1{
+    animation-name: roller,ghumna;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-delay: 2s; 
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes roller {
+    from{
+        border-radius: 20px ;
+    }
+    to{
+        transform: rotatez(360deg);
+    }
+}
